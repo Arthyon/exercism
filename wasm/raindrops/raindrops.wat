@@ -12,7 +12,7 @@
     (local.set $offset (i32.const 16))
 
     (i32.rem_u (local.get $input) (i32.const 3))
-    (i32.eq (i32.const 0))
+    i32.eqz
     (if 
       (then
         (memory.copy (local.get $offset) (i32.const 0) (i32.const 5))
@@ -20,7 +20,7 @@
         local.set $offset
     ))
     (i32.rem_u (local.get $input) (i32.const 5))
-    (i32.eq (i32.const 0))
+    i32.eqz
     (if 
       (then
         (memory.copy (local.get $offset) (i32.const 5) (i32.const 5))
@@ -28,7 +28,7 @@
         local.set $offset
     ))
     (i32.rem_u (local.get $input) (i32.const 7))
-    (i32.eq (i32.const 0))
+    i32.eqz
     (if 
       (then
         (memory.copy (local.get $offset) (i32.const 10) (i32.const 5))
@@ -39,8 +39,7 @@
 
     (i32.sub (local.get $offset) (i32.const 16)) 
     local.tee $length
-    i32.const 0
-    i32.eq
+    i32.eqz
 
     (if
       (then
