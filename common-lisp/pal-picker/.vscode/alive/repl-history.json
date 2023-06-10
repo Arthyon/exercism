@@ -1,0 +1,1 @@
+[{"pkgName":"cl-user","text":"(pal-picker-test:run-tests)"},{"pkgName":"cl-user","text":"(load \"pal-picker\")"},{"pkgName":"cl-user","text":"(load \"pal-picker-test\")"},{"pkgName":"cl-user","text":"(pal-picker-test:run-test)"}]

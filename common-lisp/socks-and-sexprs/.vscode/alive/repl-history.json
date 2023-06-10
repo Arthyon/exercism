@@ -1,0 +1,1 @@
+[{"pkgName":"cl-user","text":"(socks-and-sexprs-test:run-tests)"},{"pkgName":"cl-user","text":"(load \"socks-and-sexprs\")"},{"pkgName":"cl-user","text":"(load \"socks-and-sexprs-test\")"},{"pkgName":"cl-user","text":"(consp :dw)"},{"pkgName":"cl-user","text":"(te)"},{"pkgName":"cl-user","text":"l"}]
